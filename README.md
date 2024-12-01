@@ -26,7 +26,7 @@ O projeto consiste nos seguintes arquivos:
 Este portfólio está publicado em dois lugares:
 
 1. **GitHub Pages**: Pode ser acessado em [https://MtSulzbacher.github.io/portfolio](https://MtSulzbacher.github.io/portfolio)
-2. **InfinityFree**: Pode ser acessado em [https://mateus-sulzbacher-cordeiro.infinityfreeapp.com/](https://mateus-sulzbacher-cordeiro.infinityfreeapp.com/)
+2. **InfinityFree**: Hospedado com um domínio gratuito fornecido pela plataforma.
 
 ## Tecnologias Utilizadas
 

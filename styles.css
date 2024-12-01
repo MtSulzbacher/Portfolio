@@ -1,3 +1,4 @@
+/* Estilo para o elemento html e body para garantir que ocupem 100% da altura da janela */
 html,
 body {
   height: 100%;
@@ -5,6 +6,7 @@ body {
   padding: 0;
 }
 
+/* Estilo geral do corpo da página */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -14,10 +16,12 @@ body {
   flex-direction: column;
 }
 
+/* Wrapper de conteúdo para manter o conteúdo principal no centro da página */
 .content-wrapper {
   flex: 1;
 }
 
+/* Estilo do cabeçalho */
 header {
   background: #000;
   color: #fff;
@@ -25,6 +29,7 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* Lista de navegação no cabeçalho */
 nav ul {
   list-style: none;
   display: flex;
@@ -33,10 +38,12 @@ nav ul {
   padding: 0;
 }
 
+/* Estilo dos itens da lista de navegação */
 nav ul li {
   margin: 0 15px;
 }
 
+/* Estilo dos links de navegação */
 nav ul li a {
   color: #00d4ff;
   text-decoration: none;
@@ -44,11 +51,13 @@ nav ul li a {
   transition: color 0.3s;
 }
 
+/* Efeito ao passar o mouse sobre os links de navegação */
 nav ul li a:hover {
   color: #fff;
   text-shadow: 0 0 5px #00d4ff;
 }
 
+/* Estilo principal da seção de conteúdo */
 main {
   padding: 20px;
   max-width: 800px;
@@ -58,6 +67,7 @@ main {
   box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
 }
 
+/* Estilo do rodapé */
 footer {
   text-align: center;
   padding: 20px;
@@ -66,13 +76,13 @@ footer {
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Animações ao passar o mouse */
+/* Animações ao passar o mouse nos links de navegação */
 nav ul li a:hover {
   color: #fff;
   text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff;
 }
 
-/* Efeitos nos botões e links */
+/* Estilo dos botões de envio */
 input[type="submit"] {
   background: #00d4ff;
   border: none;
@@ -83,12 +93,13 @@ input[type="submit"] {
   transition: background 0.3s, transform 0.3s;
 }
 
+/* Efeito ao passar o mouse sobre os botões de envio */
 input[type="submit"]:hover {
   background: #0088cc;
   transform: scale(1.05);
 }
 
-/* Ícones para listas na página de formação e portfólio */
+/* Estilo dos ícones das listas nas páginas de formação e portfólio */
 ul li {
   position: relative;
   padding-left: 30px;
@@ -96,6 +107,7 @@ ul li {
   color: #ccc;
 }
 
+/* Estilo do ícone antes dos itens da lista */
 ul li::before {
   content: "\f0a9";
   font-family: "Font Awesome 5 Free";
@@ -105,7 +117,7 @@ ul li::before {
   font-weight: 900;
 }
 
-/* Ajuste do campo de mensagem */
+/* Ajuste do campo de mensagem no formulário de contato */
 textarea {
   width: 100%;
   max-width: 100%;
